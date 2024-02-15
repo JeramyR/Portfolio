@@ -25,7 +25,7 @@ export const About = () => {
         </section>
 
         <section className="about-landing-right-section">
-          {/* <h1 className="about-title">About Me</h1> */}
+          <h1 className="about-title">About Me</h1>
           <p className="about-paragraph-blurb">
               I am an inquisitive Computer Science & Engineering student, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication, and passion.
           </p>
