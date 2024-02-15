@@ -1,0 +1,64 @@
+.splashBG {
+  z-index: -2;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  filter: grayscale(0.75);
+}
+.smallSplash {
+  position: relative;
+  top: -60px;
+  z-index: -1;
+  left: 5%;
+  width: 10%;
+  min-width: 90px;
+  height: 80px;
+}
+
+.home-landing {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  left: 5%;
+}
+.home-section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.home-margin {
+  margin: 2% 0;
+}
+.londrina-shadow-regular {
+  font-family: "Londrina Shadow", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  font-style: normal;
+  font-size: 3.5rem;
+  letter-spacing: 1rem;
+  font-weight: 200;
+}
+.home-description {
+  letter-spacing: 0.35rem;
+  margin-bottom: 5%;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+}
+.home-contact-icons {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+}
+.home-container-spacer {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.home-image {
+  max-height: 35px;
+}

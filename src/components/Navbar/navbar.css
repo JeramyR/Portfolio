@@ -1,0 +1,34 @@
+nav {
+    background-color: transparent;
+    display: flex;
+    font-weight: 800;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-ul  { 
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly ;
+    list-style-type: none;
+    margin-left: 2%;
+    width: 50%;
+}
+.nav-blank {
+    width: 60%;
+}
+a:link {
+    text-decoration: none; 
+}
+.nav-link{
+    color: grey;
+}
+.active {
+    color: red;
+    font-size: 1.3rem;
+}
+nav ul li a:not(.active):hover {
+    color: silver;
+}
