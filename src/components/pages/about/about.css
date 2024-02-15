@@ -1,0 +1,142 @@
+.about-topleft {
+  z-index: -2;
+  position: fixed;
+  height: 90%;
+  width: 60%;
+  top: 0;
+  left: 0;
+  filter: grayscale(0.75);
+}
+.about-bottomRight {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  filter: grayscale(0.75);
+  z-index: -2;
+}
+.about-dots {
+  position: fixed;
+  height: 150px;
+  width: 150px;
+  z-index: -1;
+  top: 95px;
+}
+.about-landing-left-section {
+  height: 100%;
+  width: 30%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  margin-top: 110px;
+  margin-left: 5%;
+}
+.about-myphoto {
+  height: 70%;
+  border-radius: 50%;
+  margin-top: 0px;
+  width: 100%;
+  max-width: 300px;
+  transform: rotateY(40deg);
+  box-shadow: -10px 0 20px #ff000080;
+  margin-left: 2%;
+}
+.about-landing-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.about-landing-right-section {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  margin-left: 34%;
+  margin-bottom: 0%;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0.075rem;
+  word-spacing: 0.15rem;
+  height: 100%;
+}
+.about-title {
+  color: red;
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: xx-large;
+}
+.about-paragraph-blurb {
+  color: black;
+  margin: 30px 0;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px lightgrey;
+  text-align: justify;
+}
+.about-resume-btn {
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  color: silver;
+  cursor: pointer;
+  height: 40px;
+  outline: none;
+  padding: 12px;
+  text-align: center;
+  transition: all 0.5s;
+  width: 140px;
+
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+}
+.about-resume-btn span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.about-resume-btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.about-resume-btn:hover span {
+  padding-right: 25px;
+}
+.about-resume-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.about-resume-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.about-resume-btn:hover {
+  background-color: silver;
+  color: black;
+}
+
+.about-resume-btn:after {
+  content: "";
+  background: rgba(255, 0, 0, 0.251);
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 1s;
+}
+.about-resume-btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
