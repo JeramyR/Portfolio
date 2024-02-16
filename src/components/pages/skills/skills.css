@@ -33,7 +33,7 @@
   font-family: Helvetica, sans-serif;
 }
 .skills-margin {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .skills-title {
   color: red;
@@ -46,8 +46,11 @@
   text-align: justify;
   color: black;
   font-size: 20px;
-  line-height: 200%;
+  line-height: 150%;
 }
-.skills-right-container {
-    max-height: 550px;
+.skills-circles-picture {
+  height: 200px;
+}
+.skills-typing-picture {
+  height: 450px;
 }
