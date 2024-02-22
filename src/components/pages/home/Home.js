@@ -29,17 +29,17 @@ export const Home = () => {
             <div className="home-container-spacer">
               <div className="home-icon">
                 <a href="https://www.linkedin.com/in/jeramy-reid-651738ba/">
-                  <img src={linkedIn.default} className="home-image" />
+                  <img src={linkedIn.default} alt="linkedIN icon"className="home-image" />
                 </a>
               </div>
               <div className="home-icon">
                 <a href="https://github.com/JeramyR">
-                  <img src={git.default} className="home-image" />
+                  <img src={git.default} alt="git icon" className="home-image" />
                 </a>
               </div>
               <div className="home-icon">
                 <a href="">
-                  <img src={eMail.default} className="home-image" />
+                  <img src={eMail.default} alt="home icon" className="home-image" />
                 </a>
               </div>
             </div>

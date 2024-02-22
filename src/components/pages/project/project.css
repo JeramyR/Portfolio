@@ -1,0 +1,74 @@
+.project-dotBG {
+  position: fixed;
+  top: 50px;
+  left: 70px;
+  z-index: -10;
+}
+.project-splashBG {
+  position: fixed;
+  top: 45%;
+  filter: grayscale(0.75);
+  z-index: -10;
+}
+.project-landing {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  font-family: Helvetica, sans-serif;
+}
+.project-example-container {
+  max-width: 500px;
+  width: 100%;
+  height: 400px;
+  margin: 20px 60px;
+}
+.project-right-container {
+  width: 100%;
+  height: 100%;
+}
+.project-title {
+  color: red;
+  font-size: x-large;
+}
+.project-blurb {
+  letter-spacing: 0.25rem;
+  font-weight: 600;
+}
+.project-center {
+  margin: 20% 0;
+}
+.margin {
+  margin: 30px;
+}
+.project-types {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.project-buttons {
+  padding: 5px;
+  width: 80px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: darkgrey;
+  color: white;
+  border-radius: 2.5px;
+  box-shadow: 4px 4px 2px lightgray;
+}
+.project-buttons:hover {
+  background-color: lightgray;
+  color: red;
+  box-shadow: 4px 4px 2px darkgray;
+}
+.project-buttons:active {
+  background-color: dimgray;
+  color: white;
+}
+.project-choice-slider {
+  width: 10%;
+  height: 5px;
+  background-color: lightgrey;
+}
