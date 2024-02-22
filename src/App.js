@@ -1,7 +1,9 @@
-import "./index.css";
-import { Navbar } from "./components/Navbar/Navbar";
+import { Navbar } from "./components/navbar/Navbar";
 import { Route, Routes } from "react-router-dom";
-import { About, Project, Contact, Skills, Home } from "./components/pages";
+import { About, Contact, Skills, Home } from "./components/pages";
+import Project from "./components/pages/project/Project";
+import "./index.css";
+import React from "react";
 
 function App() {
   return (
